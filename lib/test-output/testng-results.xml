@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-18T15:24:09Z" name="Default suite" finished-at="2023-09-18T15:24:10Z" duration-ms="1461">
+  <suite started-at="2023-09-18T16:34:32Z" name="Suite" finished-at="2023-09-18T16:34:35Z" duration-ms="3743">
     <groups>
     </groups>
-    <test started-at="2023-09-18T15:24:09Z" name="Default test" finished-at="2023-09-18T15:24:10Z" duration-ms="1461">
+    <test started-at="2023-09-18T16:34:32Z" name="Test" finished-at="2023-09-18T16:34:35Z" duration-ms="3743">
+      <class name="com.api.tests.TestAPIclass">
+        <test-method signature="getListResources()[pri:0, instance:com.api.tests.TestAPIclass@402c4085]" started-at="2023-09-18T16:34:35Z" name="getListResources" finished-at="2023-09-18T16:34:35Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListResources -->
+        <test-method signature="getSingleUser()[pri:0, instance:com.api.tests.TestAPIclass@402c4085]" started-at="2023-09-18T16:34:35Z" name="getSingleUser" finished-at="2023-09-18T16:34:35Z" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method signature="getUsersInPageOne()[pri:0, instance:com.api.tests.TestAPIclass@402c4085]" started-at="2023-09-18T16:34:35Z" name="getUsersInPageOne" finished-at="2023-09-18T16:34:35Z" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersInPageOne -->
+        <test-method signature="getUsersInPageTwo()[pri:0, instance:com.api.tests.TestAPIclass@402c4085]" started-at="2023-09-18T16:34:35Z" name="getUsersInPageTwo" finished-at="2023-09-18T16:34:35Z" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersInPageTwo -->
+      </class> <!-- com.api.tests.TestAPIclass -->
       <class name="com.api.tests.GETAPIcallTest">
-        <test-method signature="getAPIcallTest()[pri:0, instance:com.api.tests.GETAPIcallTest@413d1baf]" started-at="2023-09-18T15:24:09Z" name="getAPIcallTest" finished-at="2023-09-18T15:24:10Z" duration-ms="1443" status="PASS">
+        <test-method signature="getAPIcallTest()[pri:0, instance:com.api.tests.GETAPIcallTest@353352b6]" started-at="2023-09-18T16:34:33Z" name="getAPIcallTest" finished-at="2023-09-18T16:34:34Z" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPIcallTest -->
       </class> <!-- com.api.tests.GETAPIcallTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.api.tests.DeleteAPIcallTest">
+        <test-method signature="DeleteAPIcall()[pri:0, instance:com.api.tests.DeleteAPIcallTest@48bb62]" started-at="2023-09-18T16:34:32Z" name="DeleteAPIcall" finished-at="2023-09-18T16:34:33Z" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAPIcall -->
+      </class> <!-- com.api.tests.DeleteAPIcallTest -->
+      <class name="com.api.tests.PUTAPIcallTest">
+        <test-method signature="putAPItest()[pri:0, instance:com.api.tests.PUTAPIcallTest@57a78e3]" started-at="2023-09-18T16:34:34Z" name="putAPItest" finished-at="2023-09-18T16:34:35Z" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putAPItest -->
+      </class> <!-- com.api.tests.PUTAPIcallTest -->
+      <class name="com.api.tests.POSTAPIcallTest">
+        <test-method signature="postAPItest()[pri:0, instance:com.api.tests.POSTAPIcallTest@4681c175]" started-at="2023-09-18T16:34:34Z" name="postAPItest" finished-at="2023-09-18T16:34:34Z" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPItest -->
+      </class> <!-- com.api.tests.POSTAPIcallTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
